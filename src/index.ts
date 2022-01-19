@@ -1,4 +1,4 @@
-import { getShipmentById } from "./repository";
+import { getShipmentById } from "./shipmentRepository";
 
 const fetchShipmentById = (shipmentId: string) => {
   try {

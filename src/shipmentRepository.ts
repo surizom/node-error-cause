@@ -2,11 +2,11 @@ import { Shipment } from "./types";
 
 const shipmentsById: Record<string, Shipment> = {
   "1": {
-    name: "Export - ",
-    client: "",
-    freightMethod: "air",
-    portOfDeparture: "Ningbo",
-    portOfDelivery: "New Jersey",
+    name: "Import - Ash wood for wands",
+    client: "Hogwarts School of Witchcraft and Wizardry",
+    freightMethod: "rail",
+    portOfDeparture: "Stockholm Central Railway Station",
+    portOfDelivery: "London",
     isCancelled: false,
   },
   "2": {
