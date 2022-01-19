@@ -2,3 +2,4 @@ node_modules
 coverage
 .history
 yarn-error.log
+build
