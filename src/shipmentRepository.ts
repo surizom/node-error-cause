@@ -12,7 +12,7 @@ const shipmentsById: Record<string, Shipment> = {
   "2": {
     name: "Import - parts for nanotech suit",
     client: "S.H.I.E.L.D",
-    freightMethod: "air",
+    freightMethod: "ocean",
     portOfDeparture: "Ningbo",
     portOfDelivery: "New Jersey",
     isCancelled: true,

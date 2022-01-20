@@ -1,18 +1,18 @@
 import { getShipmentById } from "./shipmentRepository";
 
-const fetchShipmentById = (shipmentId: string) => {
+const GETShipmentById = (routeParams: { shipmentId: string }) => {
   try {
-    return getShipmentById(shipmentId);
+    return getShipmentById(routeParams.shipmentId);
   } catch (error) {
     throw new Error(
-      `Failed to get shipment with id ${shipmentId}`,
+      `Failed to fetch shipment`,
       //@ts-ignore
       { cause: error }
     );
   }
 };
 
-//fetchShipmentById("0");
+GETShipmentById({ shipmentId: "0" });
 
 // Error: Failed to get shipment with id 0
 //     at fetchShipmentById (/Users/moaadf/node-error-cause/build/index.js:9:15)
